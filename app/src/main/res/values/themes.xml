@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DomotiqueAppAndroid" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ColorLightPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorLightPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        //bateriie en noire
+        <item name="android:statusBarColor">@color/ColorBlackPrimary</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:colorBackground">@color/background_material_light</item>
+        <item name="android:navigationBarColor">@color/ColoreBlackBackground</item>
+    </style>
+
+    <style name="black" parent="Theme.DomotiqueAppAndroid">
+        <item name="colorPrimary">@color/ColorBlackPrimary</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        //
+        <item name="android:colorBackground">@color/ColoreBlackBackground</item>
+        <item name="android:navigationBarColor">@color/ColoreBlackBackground</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+</resources>

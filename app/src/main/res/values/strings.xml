@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Home</string>
+    <string name="other_item" />
+    <string name="login">se connecter</string>
+    <string name="register">inscription</string>
+    <string name="title_activity_register">RegisterActivit</string>
+    <string name="register_title">Registration</string>
+    <string name="pseudo">Name</string>
+    <string name="last_name">last name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="password2">Confrim Password</string>
+</resources>
